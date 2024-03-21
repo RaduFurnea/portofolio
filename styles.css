@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header, footer, section {
+    text-align: center;
+}
+
+#about, #portfolio, #contact {
+    margin: 20px 0;
+}
+
+.curve-button {
+    position: absolute;
+    transform: translate(-50%, -50%); /* Center buttons */
+    /* Add more styling */
+  }
+
+/* Additional styles for navigation, content, and responsiveness */
+
+.custom-shape-divider-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 221px;
+}
+
+.custom-shape-divider-bottom .shape-fill {
+    fill:#9DA65D;
+}
+
+
+.custom-shape-divider-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 104px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top .shape-fill {
+    fill: #9DA65D;
+}
